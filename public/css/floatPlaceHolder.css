@@ -1,0 +1,36 @@
+div.float-text{
+	height: 32px;
+	width: 360px;
+	border: 1px solid lightgray;
+	border-radius: 3px;
+	cursor: text;
+	margin-bottom: 10px;
+}
+div.float-text-focused{
+	height: 38px;
+	width: 360px;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	padding: 3px 0px 3px 3px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid rgba(81, 203, 238, 1);
+	margin-bottom: 10px;
+}
+.place-holder{
+	border: none;
+	outline-width: 0;
+	margin-left: 5px;
+	height: 0px;
+	width: 0px;
+}
+
+.place-holder-label{
+	color: rgba(0,0,0,0.6);
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+.place-holder-floating-label{
+	color: lightgray;
+	font-size: 12px;
+	margin-left: 5px;
+}

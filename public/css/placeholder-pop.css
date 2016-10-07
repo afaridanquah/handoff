@@ -1,0 +1,30 @@
+.withplaceholder {
+    display: inline-block;
+    position: relative;
+    color: #c0392b;
+
+}
+
+.withplaceholder input{
+    position: relative;
+}
+    
+.placeholder {
+    display: block;
+    font-size: 11px;
+    position: absolute;
+    top: 13px;
+    right: 20px; /* changed from 15px for codepen */
+    transition: all .3s ease-in-out;
+    text-align: right;
+    z-index: 5;
+    opacity: 0;
+    color: #c0392b;
+}
+
+.placeholder.on {
+    transition: all .3s ease-in-out;
+    float: right;
+    color: #c0392b;
+    
+}
